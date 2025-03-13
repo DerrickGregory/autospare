@@ -1,0 +1,49 @@
+.background {
+  padding: 20px 0 120px;
+  display: block;
+  flex-direction: column;
+  border-bottom: 8px solid #222;
+  background: black;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+
+.button-link {
+  display: block;
+  background-color: #e50914;
+  width: 84px;
+  height: fit-content;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.button-link:hover {
+  background-color: #f40612;
+}
+
+.logo {
+  height: 32px;
+  width: 108px;
+  margin-right: 40px;
+}
+
+@media (min-width: 1449px) {
+  .logo {
+    height: 45px;
+    width: 167px;
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "For Auto LED Bulbs",
+    "subTitle": "Featuring high brightness levels from 3000 to 5000 lumens, our super-white LED bulbs provide clear, extensive illumination over long distances and wide areas. They are also simple to install and offer an impressive lifespan of up to 30000 hours. Our produced LED bulbs are energy-efficient, saving about 30% to 50% in energy compared to traditional HID and halogen bulbs, making them a smart choice for those seeking powerful, sustainable lighting systems.",
+    "image": "/images/about1.png",
+    "alt": "Tiger King on Netflix",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 2,
+    "title": "For Car Lamps",
+    "subTitle": "Our car lamps feature added enhancements such as LED Daytime Running Lights (DRL) and LED angel eyes (available in yellow, white, and blue), allowing you to personalize your car's look. These car lamps are not only low-priced but also designed for easy assembly. Our stylish, versatile, and affordable customized car lamps will craft to fit your personal style and needs to elevate your driving experience.",
+    "image": "/images/about2.png",
+    "alt": "Watch on mobile",
+    "direction": "row"
+  }
+]

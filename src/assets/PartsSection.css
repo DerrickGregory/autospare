@@ -1,0 +1,24 @@
+.parts-section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #8b70ff;
+}
+
+.part-img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}

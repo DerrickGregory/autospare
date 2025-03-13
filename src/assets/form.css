@@ -1,0 +1,148 @@
+.contact-form {
+  margin-top: 20px;
+}
+
+.title {
+  color: #111;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.error {
+  background: #e87c03;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0 0 16px;
+  color: white;
+  padding: 15px 20px;
+}
+
+.text {
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-small {
+  margin-top: 10px;
+  color: #8c8c8c;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(233, 30, 99);
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-row {
+  margin-bottom: 20px;
+}
+
+.input-row label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  background: #fff;
+  border-radius: 4px;
+   border: 1px solid #ccc; 
+  color: black;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  width: calc(50% - 10px);
+}
+
+.input.description {
+  height: 150px;
+  width: 100%;
+  resize: vertical;
+}
+
+.input:last-child {
+  margin-bottom: 30px;
+}
+
+.submit {
+  background: #f3671f;
+  border-radius: 4px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.submit.disabled {
+  opacity: 0.5;
+}
+
+  .orange{
+    color:#f3671f;
+  }
+
+
+  .custom-card {
+  display: flex;
+ 
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.custom-img {
+  width: 100px;
+  height: auto;
+}
+
+.custom-card-body {
+  padding: 10px;
+}
+
+.custom-card-title {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.custom-quantity {
+
+  background-color: rgba(255, 255, 255, 0.5);
+ 
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: auto;
+}
+
+.delete-btn svg {
+  color: red;
+  font-size: 20px;
+}
+
+.custom-card {
+  display: flex;
+
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative; /* Added for positioning the delete button */
+}

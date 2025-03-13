@@ -1,0 +1,47 @@
+
+
+
+
+.title {
+ 
+ margin-top: 26px;
+  margin-bottom: 26px;
+  text-align: center;
+  color: #07101a;;
+}
+.margin-top{
+  margin-top: 26px;
+}
+
+.margin-bottom{
+  margin-bottom: 26px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.banner {
+  background-image: url('/images/about.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 60vh; /* Adjust height as needed */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  line-height: 1.5;
+  text-align: center;
+
+  font:normal 400 14px/1.4 Outfit, sans-serif;;
+text-align: justify;
+}

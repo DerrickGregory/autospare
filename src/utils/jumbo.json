@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Bryant Analyst Bag",
+  "subTitle": "Laptop Compatibility: No, Strap Type: Adjustable, Trolley Support: No. With Rain Cover : No\nOuter Material: Polyester, Color: Black\nWater Resistance: Water resistant, not Waterproof\nCapacity: 32 liters; Dimensions: 31.5 x 22 x 49.5 Centimeters\nNumber of Wheels: 0, Number of compartments: 3\nWarranty type: Manufacturer; 1 year International warranty valid for 1 year from the original date of",
+  "image": "/images/mahog.webp",
+    "category":"bag",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 2,
+    "title": "Search Backpack",
+    "subTitle": "Perfection: A perfect pick for daily use, this Polester Trending Backpack can securely be used to carry mobile phone, cards, cosmetics, iPad, umbrella and other daily essential things in a safe, secure and arranged manner. No matter wherever you are heading to, it can be your companion for every hour of need. Stylish &amp; Fashionable: This bag is designed for...",
+    "image": "/images/pink.webp",
+    "category":"backpack"
+  }
+]
