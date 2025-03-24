@@ -34,7 +34,7 @@ export default function Cart() {
   const amount = cartItems.reduce((total, item) => total + item.price, 0);
 
   try {
-    const response = await fetch("http://localhost:5000/pay", {
+    const response = await fetch("https://autospare.onrender.com/pay", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
