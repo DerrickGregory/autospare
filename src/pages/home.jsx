@@ -229,16 +229,16 @@ const handleCatChange = (category) => {
         <div className="row mt-5">
           <div className="col-md-8">
             <h3 className="text-gradient text-warning mb-0">About us</h3>
-            <h3>AutoSpare</h3>
+            <h3>Toyota AutoSpare</h3>
 
                <p className="pe-md-5 mb-4">
-          Welcome to AutoSpare Hub, your ultimate destination for high-quality automotive spare parts.
+          Welcome to Toyota AutoSpare, your ultimate destination for high-quality automotive spare parts.
             </p>
 
             <p className="pe-md-5 mb-4">
           Welcome to AutoSpare Hub, your ultimate destination for high-quality automotive spare parts.
 
-At AutoSpare Hub, we are dedicated to transforming the auto spare parts industry by providing a seamless platform where customers can easily access a wide range of genuine and affordable spare parts. Our mission is to bridge the gap between suppliers and customers, ensuring reliability, efficiency, and customer satisfaction.
+At  Toyota AutoSpare, we are dedicated to transforming the auto spare parts industry by providing a seamless platform where customers can easily access a wide range of genuine and affordable spare parts. Our mission is to bridge the gap between suppliers and customers, ensuring reliability, efficiency, and customer satisfaction.
               </p>
             <p className="pe-md-5 mb-4">
             With a focus on quality and innovation, we aim to simplify the process of finding the right parts for your vehicle while offering competitive pricing and fast delivery services. Whether you're a mechanic, a car enthusiast, or a regular vehicle owner, AutoSpare Hub is here to meet your needs and keep your car running smoothly.

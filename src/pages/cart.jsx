@@ -24,6 +24,41 @@ export default function Cart() {
   const [submitted, setSubmitted] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
+
+  const handlePay = async () => {
+  if (!phoneNumber) {
+    alert("Please enter a phone number.");
+    return;
+  }
+
+  const amount = cartItems.reduce((total, item) => total + item.price, 0);
+
+  try {
+    const response = await fetch("http://localhost:5000/pay", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        phone: phoneNumber,
+        amount: amount,
+      }),
+    });
+
+    const data = await response.json();
+    if (data.ResponseCode === "0") {
+      alert("STK Push sent to your phone. Please complete payment.");
+    } else {
+      alert("Payment request failed. Try again.");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+    alert("An error occurred while processing payment.");
+  }
+};
+
+
+
   useEffect(() => {
     const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
     setCartItems(storedCartItems);
@@ -142,8 +177,8 @@ export default function Cart() {
 
                  <div className="row">
  <div className="col-md-6">
-        <img className="nav_logo" src="/images/logo.jpg"/>
- <Modal.Title>Arani Luxury</Modal.Title>
+        <img className="nav_logo" src="/images/our-cars.svg"/>
+ <Modal.Title>Toyota AutoSpare</Modal.Title>
          </div>
  <div className="col-md-6">
 
@@ -202,7 +237,8 @@ export default function Cart() {
         </Modal.Body>
         <Modal.Footer >
           <Button variant="secondary" onClick={handlePrint}>Print</Button>
-          <Button variant="primary" onClick={handleCloseModal}>Close</Button>
+          <Button variant="primary" onClick={handlePay}>Pay</Button>
+          <Button variant="warning" onClick={handleCloseModal}>Close</Button>
         </Modal.Footer>
       </Modal>
 

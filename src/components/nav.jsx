@@ -36,7 +36,7 @@ const Navigation = () => {
     <div className="container">
       <Navbar.Brand href="/" className="logo-container">
       <img className="nav_logo" src="/images/our-cars.svg"/>
-        AutoSpare
+        Toyota AutoSpare
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
